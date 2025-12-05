@@ -74,8 +74,9 @@ public class  RequestDataController2{
     }
 
     @DeleteMapping("/req/data1/{id}")
-    public ResponseEntity<?> reqDelete(@PathVariable int id) {
+    public ResponseEntity<?> reqDelete(@PathVariable int id, @RequestBody Map<String, Object> data) {
         System.out.println(id);
+        System.out.println(data);
         return ResponseEntity.ok().build();
     }
 

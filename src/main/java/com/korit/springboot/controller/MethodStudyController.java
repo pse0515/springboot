@@ -26,4 +26,6 @@ public class MethodStudyController {
     public ResponseEntity<String> delete() {
         return ResponseEntity.status(200).body(null);
     }
+
+
 }

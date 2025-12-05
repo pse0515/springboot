@@ -1,6 +1,5 @@
 package com.korit.springboot.dto;
 
-
 import lombok.Data;
 
 import java.util.List;
