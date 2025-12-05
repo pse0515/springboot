@@ -6,7 +6,8 @@
 <mapper namespace="com.korit.springboot.mapper.UserMapper">
 
     <insert id="insert">
-
+        insert into user_tb
+        values (default, #{username}, #{password}, #{name}, #{email})
     </insert>
 
 
