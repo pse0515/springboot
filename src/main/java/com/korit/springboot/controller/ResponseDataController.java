@@ -76,12 +76,3 @@ public class ResponseDataController {
                 .body(resource);
     }
 }
-
-
-
-
-
-
-
-
-
