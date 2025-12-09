@@ -7,6 +7,9 @@ spring:
     username: root
     password: 1q2w3e4r
 
+jwt:
+  secret: 60ba03257dbef7181bc184e4031b429f51c54f92125027da1b93ba9a74340ef88a49a3b0d827d869acb40c2c1780f7048379a8a826580baa06caa361b3f7a2cc
+
 springdoc:
   swagger-ui:
     path: doc
